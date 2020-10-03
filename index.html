@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Akan Naming System </h1>
+        <p class="ppp">The Akan naming system is a culture that was developed by the Ghananians. Children were given a
+            "day name"
+            which corresponds to the day in the week they were born. The tradition was shared out through-out west
+            Africa and the African Diaspora. Notable figures with Akan names include Ghana's first president Kwame
+            Nkrumah
+            and former United Nations Secretary-General Kofi Annan. The popular Ghananians-British fashion model Adwao Caitlin MariaAboah is Monday-born. </p> <br>
+
+
+
+        <p class="w">Get to know your 'Akan Name' by simply filling out the form below.</p> 
+         <form>
+            <div>
+                <div>
+                        <p id="output"></p>
+                    <label>Enter Your first Name.</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter" required>
+                    <label>Year of Birth</label>
+                    <input type="number" class="form-control" id="year" placeholder="Enter the year." required
+                        min="1900" max="2020" >
+                    <label>Month of Birth</label>
+                    <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
+                        max="12">
+
+                    <label>Day of Birth</label>
+                    <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
+                        max="31">
+                </div>
+                <div class="gender">
+                    <label>Gender</label><br>
+                    <input type="radio" name="gender" id="male" value="male" checked> Male
+                    <input type="radio" name="gender" id="female" value="female"> Female
+                </div>
+            </div>
+            <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+            
+            <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+            
+        </form>
+        <footer>
+            copyright &copy; EIDABDULLAHI  DESIGNER.<br> 2-10-2020
+            <img src="./image/20200924_233334.jpg" width="200px" height="150px" alt="my logo">
+            <style>background-attachment::cue-region;</style>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
