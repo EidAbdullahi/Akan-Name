@@ -1,5 +1,7 @@
 body {
-    background-image: url(/image/new-.jpg);
+    background-image: url(/image/new-.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .ppp {
     color:black;
@@ -15,13 +17,14 @@ h1 {
 
 }
 .w {
-    font-family: 'EB Garamond', serif
+    font-family: inherit;
     color:rebeccapurple;
     font-family: 'EB Garamond', serif;
-    font-size:1.8em;
+    font-size:30px;
+    color:black;
 }
 .gender {
-    color:rebeccapurple;
+    color:rgb(139, 24, 24);
     font-family: 'EB Garamond', serif;
     font-size:1.8em;
 } 
@@ -43,7 +46,7 @@ form {
     text-align:center;
 }
 a {
-    color:white;
+    color:g;
 }
 .btn btn-outline-info btn-lg {
     color:rgb(139, 24, 24);
