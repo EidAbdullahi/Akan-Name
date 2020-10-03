@@ -20,12 +20,12 @@ var submission = function() {
   ];
   let femaleNames = [
     "Akosua",
-     " Adwoa",
-    "Abenaa",
-    "Akua",
-    "Yaa",
-    "Afua",
-    "Ama"
+    " Adwoa",
+   "Abenaa",
+   "Akua",
+   "Yaa",
+   "Afua",
+   "Ama"
   ];
   let month = parseInt(document.getElementById("month").value);
   let year = parseInt(document.getElementById("year").value);
