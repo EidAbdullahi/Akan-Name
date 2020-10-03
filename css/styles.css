@@ -24,9 +24,9 @@ h1 {
     color:black;
 }
 .gender {
-    color:rgb(139, 24, 24);
+    color:red;
     font-family: 'EB Garamond', serif;
-    font-size:1.8em;
+    font-size:2em;
 } 
 
 label {
