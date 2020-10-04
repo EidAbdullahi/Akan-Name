@@ -55,7 +55,7 @@ var submission = function() {
     output.innerHTML = "Hey! " + name + " please enter a valid year! "
 }
   
-else if ((month < 1) || (month > 31)) {
+else if ((month < 1) || (month > 12)) {
     output.style.background ="red"
     output.style.color= "white"
     output.innerHTML = "Hey! " + name + " please enter a valid month! "
@@ -72,7 +72,7 @@ else if ((month < 1) || (month > 31)) {
 //    alert("No Input received!!");
 //  }
 
-  if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
+  if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 31) {
     output.style.background ="lime"
       output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
   }
