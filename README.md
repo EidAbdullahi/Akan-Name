@@ -20,7 +20,7 @@
 
 
 ## Demo
-Here is a working live demo:
+Here is a working live demo: https://eidabdullahi.github.io/Akan-Name/
 ## Mobile support
 The Portfolio is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 ### Development
